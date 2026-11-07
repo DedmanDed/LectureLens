@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:20.000
+Today we introduce transformer models. A transformer processes tokens using attention mechanisms instead of relying only on sequential recurrence.
+
+00:07:00.000 --> 00:07:35.000
+Word embeddings map tokens into vectors. Similar words can have related vector representations, but a fixed embedding alone does not fully express how a word is used in its current sentence.
+
+00:12:00.000 --> 00:12:40.000
+Self-attention computes relationships between tokens in the same sequence. Each token can use information from other tokens to build a contextual representation.
+
+00:17:30.000 --> 00:18:42.000
+Attention weights indicate how strongly a token uses information from other positions. This helps the representation reflect relevant words, including words that are far apart in a sequence.
+
+00:25:00.000 --> 00:25:40.000
+Multi-head attention uses multiple attention operations in parallel. Different heads can learn to focus on different kinds of relationships in the input.
+
+00:36:00.000 --> 00:36:45.000
+Transformer blocks commonly combine attention, feed-forward layers, residual connections, and normalization. These components are stacked to build deeper representations.

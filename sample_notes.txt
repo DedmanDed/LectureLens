@@ -1,0 +1,11 @@
+Transformer overview
+A transformer is a neural network architecture built around attention. It processes token representations and can model relationships between tokens without using recurrence as its main sequence mechanism.
+
+Embeddings
+Token embeddings represent tokens as vectors. Positional information can be added so the model can distinguish token order. A static embedding does not by itself encode all context from the current sentence.
+
+Self-attention
+Self-attention lets each token gather information from other tokens. Attention scores are normalized into weights that determine how much information is combined from each position. The output is a contextual representation.
+
+Multi-head attention
+Multi-head attention performs several attention operations in parallel. Different heads may represent different relationships, and their outputs are combined. This is introduced in the lecture at 25:00, so do not reveal it from video before that timestamp; these notes are an explicitly permitted supporting resource.
